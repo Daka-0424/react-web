@@ -1,0 +1,32 @@
+.header{
+  transition: all 0.5s;
+  z-index: 997;
+  height: 60px;
+  box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
+  background-color: #fff;
+  padding-left: 20px;
+}
+
+.motto-text {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  font-size: 5em;
+}
+
+.vertical-text {
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+}
+
+/*ScrollMagicのテスト用
+.hidden {
+  opacity: 0;
+}
+
+.fade-in {
+  opacity: 1;
+  transition: opacity 10s ease-in-out;
+}
+*/
