@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import ScrollMagic from 'scrollmagic';
 import '../../assets/css/Info.css'
 
-function App() {
+export default function App() {
   const [scrollPosition, setScrollPosition] = useState(0);
   const [displayText, setDisplayText] = useState('');
   const [isAnimating, setIsAnimating] = useState(false);
@@ -50,5 +50,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

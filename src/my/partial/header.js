@@ -5,7 +5,7 @@ export default function App() {
   return (
     <header id="header" class="header fixed-top d-flex align-items-center">
       <Helmet>
-        <title>Info</title>
+        <title>D</title>
       </Helmet>
     </header>
   );

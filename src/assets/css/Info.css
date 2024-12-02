@@ -20,6 +20,15 @@
   writing-mode: vertical-rl;
 }
 
+.title-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.draggable:acrive{
+  opacity: 0;
+}
+
 /*ScrollMagicのテスト用
 .hidden {
   opacity: 0;

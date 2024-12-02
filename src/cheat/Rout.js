@@ -1,12 +1,10 @@
 import '../App.css';
 import Header from './partial/header';
 
-function App() {
+export default function App() {
   return (
     <div className="Cheat">
       <Header />
     </div>
   );
 }
-
-export default App;
