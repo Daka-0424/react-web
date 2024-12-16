@@ -15,7 +15,9 @@ export default function App() {
   return (
     <div id="root" class="wrapper">
       <Header />
-      <Picture jpeg={TitleImageJpg} webp={TitleImageWebp} />
+      <Picture jpeg={TitleImageJpg} webp={TitleImageWebp}>
+        <img class="title-img" />
+      </Picture>
       {/*<button onClick={togglePopup}>Popupを開くでごわす！</button>
       {isPopupVisible && (
         <Popup>
