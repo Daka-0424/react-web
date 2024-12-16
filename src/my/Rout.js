@@ -3,6 +3,7 @@ import '../assets/css/Info.css';
 import TitleImageWebp from '../assets/img/img1.webp';
 import TitleImageJpg from '../assets/img/img1.jpg';
 import Header from './partial/header';
+import Picture from '../partial/Picture';
 //import Popup from '../Popup';
 
 export default function App() {
@@ -14,11 +15,7 @@ export default function App() {
   return (
     <div id="root" class="wrapper">
       <Header />
-      <picture>
-        <source srcset={TitleImageWebp} type="image/webp" />
-        <source srcset={TitleImageJpg} type="image/jpeg" />
-        <img class="title-img"/>
-      </picture>
+      <Picture jpeg={TitleImageJpg} webp={TitleImageWebp} />
       {/*<button onClick={togglePopup}>Popupを開くでごわす！</button>
       {isPopupVisible && (
         <Popup>
